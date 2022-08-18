@@ -101,7 +101,7 @@ VPBDIV          EQU     0xE01FC100      ; VPBDIV Address
 ;//               <1=> XCLK Pin = CPU Clock
 ;//               <2=> XCLK Pin = CPU Clock / 2
 ;// </e>
-VPBDIV_SETUP    EQU     0
+VPBDIV_SETUP    EQU     1
 VPBDIV_Val      EQU     0x00000000
 
 
@@ -125,7 +125,7 @@ PLLSTAT_PLOCK   EQU     (1<<10)         ; PLL Lock Status
 ;//               <0=> 1   <1=> 2   <2=> 4   <3=> 8
 ;//               <i> P Value
 ;// </e>
-PLL_SETUP       EQU     1
+PLL_SETUP       EQU     0
 PLLCFG_Val      EQU     0x00000024
 
 
