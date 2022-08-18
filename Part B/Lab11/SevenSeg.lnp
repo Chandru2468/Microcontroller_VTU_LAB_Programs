@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\sevenseg.o"
+--library_type=microlib --strict --scatter ".\SevenSeg.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\SevenSeg.map" -o .\SevenSeg.axf

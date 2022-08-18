@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\square.o"
+--library_type=microlib --strict --scatter ".\square.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\square.map" -o .\square.axf

@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\triangular.o"
+--library_type=microlib
+--feedback ".\triangular.fed" --feedback_image=none
+--strict --scatter ".\triangular.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\triangular.map" -o .\triangular.axf

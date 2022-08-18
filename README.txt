@@ -1,6 +1,7 @@
 Microcontroller VTU LAB PROGRAMS
 Assembly Language Program(ALP)
 Executed in Keil uVision-4 Tool/Compiler
+
 (PART-A )
 Lab1: ALP Program to multilpy 16 bit binary numbers
 Lab2: ALP Program to find sum of first 10 integers
@@ -12,3 +13,11 @@ LAB6B: ALP Program to find smallest number
 lab7A: ALP Program to find ascending order
 lab7B: ALP Program to find descending order
 lab8: ALP Program to count number of ones and zeroes
+
+(PART-B )
+Lab 9:DC Motor
+Lab 10: Stepper Motor
+Lab11: 7Segment
+Lab12: Helloworld
+Lab 13:LED Ext_INT0
+Lab 14:DAC
